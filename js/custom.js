@@ -54,6 +54,25 @@ $(document).ready(function() {
                 $('.header').removeClass('addBg');
             }
         }
+        
+    });
+    $('.scroll').on('click', function (e) {
+        e.preventDefault();
+        let targetId = $(this).attr('href');
+        let targetElement = $(targetId);
+
+        if (targetElement.length) {
+            $('html, body').animate({
+                scrollTop: targetElement.offset().top - 100
+            }, 500, 'swing', function () {
+                
+                targetElement.addClass('highlight');
+                setTimeout(() => {
+                    targetElement.removeClass('highlight');
+                }, 1000); 
+            });
+        }
+    
     });
 
     var container = $('#portfolio_wrapper');
@@ -139,3 +158,6 @@ document.getElementById('').onclick = function() {
     section.className = 'wow lightSpeedIn';
     this.parentNode.insertBefore(section, this);
 };
+
+
+
