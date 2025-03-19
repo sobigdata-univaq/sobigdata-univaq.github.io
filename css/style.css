@@ -2259,6 +2259,23 @@ div.mc-image {
         border-radius: 5px; 
     }
 
+
+.google_form{
+    position: relative;
+    width: 100%;
+    padding-top: 50%;
+}
+.google_form iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+
 /*
    Media Queries
 --------------------------- */
