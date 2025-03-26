@@ -1623,6 +1623,20 @@ background-image: url("img/footer/PNG/sbd_it_footer@3x.png");
     margin: 20px 0 30px;
     text-align: justify;
 }
+
+.section-title .overview-text {
+    display: block;
+    color: #222222;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0 30px;
+    text-align: justify;
+}
+
+
+
+
 #techSkills{
 padding:80px 0 60px;
 }
