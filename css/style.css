@@ -1484,7 +1484,7 @@ background-image: url("img/footer/PNG/sbd_it_footer@3x.png");
 }
 
 .footer_logo img {
-    max-width: 100%; /* Cambia la dimensione se serve */
+    max-width: 100%; 
     height: auto;
 }
 
@@ -1608,7 +1608,7 @@ background-image: url("img/footer/PNG/sbd_it_footer@3x.png");
     font-family: 'Raleway', sans-serif;
     font-size: 34px;
     letter-spacing: -1px;
-    margin: 30px 0 15px;
+    margin: 50px 0 15px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -1624,16 +1624,36 @@ background-image: url("img/footer/PNG/sbd_it_footer@3x.png");
     text-align: justify;
 }
 
-.section-title .overview-text {
-    display: block;
-    color: #222222;
-    font-family: 'Open Sans',sans-serif;
+.section-title .overview-text ul {
+    padding-left: 20px;
+}
+.section-title .overview-text li{
+    margin-bottom: 8px;
+    line-height: 1.5;
+    text-decoration: none;
     font-size: 16px;
-    font-weight: 400;
-    margin: 20px 0 30px;
-    text-align: justify;
+    font-family: 'Open Sans',sans-serif;
 }
 
+.section-title .overview-text a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.section-title .overview-text a:hover {
+    text-decoration: underline;
+  }
+
+.section-title .overview-text h4 {
+    color: #F74D4D; 
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Open Sans',sans-serif;
+    text-decoration: underline;
+}
 
 
 
@@ -2333,6 +2353,12 @@ div.mc-image {
     font-weight: normal; 
 }
 
+.news-content a {
+    color: lightblue; 
+    font-size: 13px; 
+    font-weight: normal; 
+}
+
 .abstract {
     background-color: #f5f5f5;
     padding: 15px;
@@ -2355,7 +2381,6 @@ div.mc-image {
     font-family: 'Open Sans', sans-serif;
     color: #1a1a1a;
 }
-
 
 .highlight {
         background-color: rgba(255, 255, 0, 0.434); 
@@ -2380,9 +2405,16 @@ div.mc-image {
 
 
 
-
-
-
+.abstract-overview {
+    background-color: #f9f9f9;
+    border-left: 6px solid #F74D4D; 
+    padding: 20px;
+    border-radius: 8px;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 600px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
 
 
 
